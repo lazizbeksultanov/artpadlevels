@@ -17,7 +17,7 @@ const Footer = () => {
                 <button className="outline-none bg-gray-700 cursor-pointer p-1 mr-4">
                   <TwitterIcon />
                 </button>
-                <button className="outline-none bg-auto cursor-pointer p-1">
+                <button className="outline-none bg-gray-700 cursor-pointer p-1">
                   <TelegramIcon />
                 </button>
               </div>
