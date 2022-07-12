@@ -59,7 +59,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex flex-col text-2xl text-white">
                         <Link to="/" className="hover:text-[#CD3ED0] py-3">Home</Link>
-                        <Link to="/" className="hover:text-[#CD3ED0] py-3">Projects</Link>
+                        <Link to="/projects" className="hover:text-[#CD3ED0] py-3">Projects</Link>
                         <Link to="/" className="hover:text-[#CD3ED0] py-3">Levels</Link>
                         <Link to="/" className="hover:text-[#CD3ED0] py-3">FAQ</Link>
                         <Link to="/" className="hover:text-[#CD3ED0] py-3">Help Centre</Link>
