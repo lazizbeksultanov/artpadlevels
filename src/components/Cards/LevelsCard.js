@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = (props) => {
+const LevelsCard = (props) => {
   return(
       <div className="sm:w-1/3 w-full">
         <div className="text-center border border-[#CD3ED0] rounded-md">
@@ -23,4 +23,4 @@ const Card = (props) => {
   )
 }
 
-export default Card;
+export default LevelsCard;

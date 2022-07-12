@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="hidden text-white items-center xl:w-8/12 md:w-full navres:flex">
                 <nav className="flex w-full justify-between items-center">
                     <Link to="/" className="hover:text-[#CD3ED0]">Home</Link>
-                    <Link to="/" className="hover:text-[#CD3ED0]">Projects</Link>
+                    <Link to="/projects" className="hover:text-[#CD3ED0]">Projects</Link>
                     <Link to="/" className="hover:text-[#CD3ED0]">Levels</Link>
                     <Link to="/" className="hover:text-[#CD3ED0]">FAQ</Link>
                     <Link to="/" className="hover:text-[#CD3ED0]">Help Centre</Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <BurgerMenu />
             </button>
             </div>
-            <div className={`w-full ease-in-out duration-500 bg-black min-h-screen fixed inset-0 ${active ? "translate-y-0" : "-translate-y-full"}`}>
+            <div className={`w-full ease-in-out duration-500 bg-black min-h-screen z-10 fixed inset-0 ${active ? "translate-y-0" : "-translate-y-full"}`}>
                 <div className="w-full px-4">
                     <div className="w-full flex justify-between pt-12 pb-8">
                         <div className="flex">
