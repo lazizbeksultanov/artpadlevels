@@ -24,7 +24,7 @@ const ProjectsCard = () => {
                     </div>
                     <img src={ProjectsCardImg} alt="" className="w-full" />
                 </div>
-                <div className="pl-4 pr-1 w-full">
+                <div className="px-3 w-full">
                     <div className="w-full flex justify-between py-3 2xl:px-8 lg:px-4 md:px-2 px-2">
                         <button className="outline-none bg-auto">
                             <TelegramPurpleIcon />
