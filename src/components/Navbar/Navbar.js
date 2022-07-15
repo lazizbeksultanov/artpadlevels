@@ -18,7 +18,6 @@ const Navbar = () => {
                     <Link to="/projects" className="hover:text-[#CD3ED0]">Projects</Link>
                     <Link to="/" className="hover:text-[#CD3ED0]">Levels</Link>
                     <Link to="/" className="hover:text-[#CD3ED0]">FAQ</Link>
-                    <Link to="/" className="hover:text-[#CD3ED0]">Help Centre</Link>
                     <Link to="/" className="hover:text-[#CD3ED0]">NFT Marketplace</Link>
                     <div className="flex items-center">
                         <button className={"outline-none bg-auto rounded-none cursor-pointer mr-6"}>
@@ -62,7 +61,6 @@ const Navbar = () => {
                         <Link to="/projects" className="hover:text-[#CD3ED0] py-3">Projects</Link>
                         <Link to="/" className="hover:text-[#CD3ED0] py-3">Levels</Link>
                         <Link to="/" className="hover:text-[#CD3ED0] py-3">FAQ</Link>
-                        <Link to="/" className="hover:text-[#CD3ED0] py-3">Help Centre</Link>
                         <Link to="/" className="hover:text-[#CD3ED0] py-3">NFT Marketplace</Link>
                     </div>
                     <div className="w-full text-xl text-white font-semibold">
