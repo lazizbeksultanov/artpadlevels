@@ -1,5 +1,5 @@
 import React from "react";
-import {MediumIcon, TelegramIcon, TwitterIcon} from "../../resources/svgImages/svgImages";
+import {DiscordIcon, MediumIcon, TelegramIcon, TwitterIcon} from "../../resources/svgImages/svgImages";
 import {Link} from "react-router-dom";
 import FooterLogo from "./../../resources/footerlogo.png"
 
@@ -18,8 +18,11 @@ const Footer = () => {
                   <button className="outline-none bg-gray-700 cursor-pointer p-1 mr-4">
                     <TwitterIcon />
                   </button>
-                  <button className="outline-none bg-gray-700 cursor-pointer p-1">
+                  <button className="outline-none bg-gray-700 cursor-pointer p-1 mr-4">
                     <TelegramIcon />
+                  </button>
+                  <button className="outline-none bg-gray-700 cursor-pointer p-1">
+                    <DiscordIcon />
                   </button>
                 </div>
               </div>

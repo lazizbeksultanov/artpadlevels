@@ -11,7 +11,7 @@ import SeaorImg from "../../resources/images/SEOR1.png"
 const ProjectsCard = () => {
     return(
         <div className="xl:w-1/3 sm:w-1/2 w-full inline-block">
-            <div className="max-w-max border border-2 border-[#CD3ED0] my-4 rounded-md 2xl:mx-12 lg:mx-6 sm:mx-2 mx-0">
+            <div className="max-w-max border border-2 border-[#CD3ED0] my-4 rounded-md lg:mx-6 sm:mx-2 mx-0">
                 <div className="relative">
                     <div className="absolute flex justify-between items-center w-full h-full px-4">
                         <div className="text-white 2xl:text-4xl lg:text-3xl md:text-2xl text-3xl">

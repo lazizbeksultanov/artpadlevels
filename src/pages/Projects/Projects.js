@@ -12,19 +12,19 @@ const Projects = () => {
                 <div className="flex flex-col lg:flex-row items-center">
                     <div className="text-white text-xs xl:text-sm md:w-auto w-full">
                         <div className="md:block hidden">
-                            <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 mr-2 sm:mt-2">upcoming [15]</button>
-                            <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 mx-2 sm:mt-2">upcoming [15]</button>
-                            <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 mx-2 sm:mt-2">upcoming [15]</button>
-                            <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 ml-2 sm:ml-0 sm:mt-2">upcoming [15]</button>
+                            <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 mr-2 sm:mt-2 min-w-max">upcoming [15]</button>
+                            <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 mx-2 sm:mt-2 min-w-max">ended [110]</button>
+                            <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 ml-2 mr-4 sm:mt-2 min-w-max">ended NFT [10]</button>
+                            <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 sm:ml-0 sm:mt-2 min-w-max">refunded [10]</button>
                         </div>
                         <div className="md:hidden flex justify-between mt-2 w-full">
                             <div>
-                                <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 block">upcoming [15]</button>
-                                <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 mt-2">upcoming [15]</button>
+                                <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 block min-w-full">upcoming [15]</button>
+                                <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 mt-2 min-w-full">ended [110]</button>
                             </div>
                             <div>
-                                <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 mx-2 block">upcoming [15]</button>
-                                <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 ml-2 mt-2">upcoming [15]</button>
+                                <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 min-w-full block">ended NFT [10]</button>
+                                <button className="outline-none bg-auto border-2 border-[#CD3ED0] rounded-lg py-2 px-6 min-w-full mt-2">refunded [10]</button>
                             </div>
                         </div>
                     </div>
