@@ -10,7 +10,6 @@ const Levels = () => {
     return (
             <Container>
                 <div className="md:mt-16 mt-10 xl:px-64 lg:px-36 md:px-20 sm:px-8 px-4">
-                    <Title color="white" title="ArtPad Levels" className={"mb-8"} />
                     <Title color="white" title="Lottery Levels" artpadC={true} className={"tracking-widest"} />
                     <div className="flex w-full my-24 flex-col sm:flex-row">
                         <LevelsCard title="Tier 1" description="Staking Requirements" price="2500 ARTR" mediumTitle="Pool Weight" mediumPrice="1x" bottomTitle="Allocation Type" bottomDesc="Lottery (25%)" buttonTitle="Stake" />
