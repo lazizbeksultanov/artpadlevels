@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: black;
+    background-image: url("./resources/bg.svg");
+    background-position-y: 25vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    background-color: var(--black);
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-family: var(--font-family);
+}
+
+@media (max-width: 576px) {
+    body {
+        background-position-y: -75vh !important;
+        background-size: 100% 100%;
+        background-image: url("./resources/bg.svg");
+    }
+}
+
+:root {
+    --font-family: "Rubik", sans-serif;
+    --content-width: 1410px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+    --primary-color: linear-gradient(90deg, #cd3ed0 14.1%, #6b1495 144.51%);
+    --selected-color: #cd3ed0;
+    --roadmap-color: #20ece0;
+    --roadmap-bar: #6f0b89;
+    --light-white: rgba(255, 255, 255, 0.8);
+    --light-color: #fff;
+    --black: #000000;
+}
+
+._container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0px clamp(15px, 15px, 20px);
+}
+
+.flex>a.active {
+    color: var(--selected-color);
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}

@@ -1,9 +1,7 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
 import Title from "../../components/Title";
 import LevelsCard from "../../components/Cards/LevelsCard";
 import Calculator from "../../components/Calculator/Calculator";
-import Footer from "../../components/Footer/Footer";
 import Container from "../../components/Container/Container";
 
 const Levels = () => {

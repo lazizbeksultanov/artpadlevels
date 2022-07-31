@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Navbar.css"
 import {Account, BurgerMenu, BurgerMenuX, Calendar, Logo} from "../../resources/svgImages/svgImages";
-import {Link} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 const Navbar = () => {
     const [active, setActive] = useState(false);
@@ -14,12 +14,12 @@ const Navbar = () => {
             </div>
             <div className="hidden text-white items-center xl:w-8/12 md:w-full navres:flex">
                 <nav className="flex w-full justify-between items-center">
-                    <Link to="/" className="hover:text-[#CD3ED0]">Home</Link>
-                    <Link to="/projects" className="hover:text-[#CD3ED0]">Projects</Link>
-                    <Link to="/" className="hover:text-[#CD3ED0]">Levels</Link>
-                    <Link to="/" className="hover:text-[#CD3ED0]">Bridge</Link>
-                    <Link to="/" className="hover:text-[#CD3ED0]">FAQ</Link>
-                    <Link to="/" className="hover:text-[#CD3ED0]">NFT Marketplace</Link>
+                    <NavLink to="/" className="hover:text-[#CD3ED0]">Home</NavLink>
+                    <NavLink to="/projects" className="hover:text-[#CD3ED0]">Projects</NavLink>
+                    <NavLink to="/levels" className="hover:text-[#CD3ED0]">Levels</NavLink>
+                    <NavLink to="/bridge" className="hover:text-[#CD3ED0]">Bridge</NavLink>
+                    <NavLink to="/faq" className="hover:text-[#CD3ED0]">FAQ</NavLink>
+                    <NavLink to="/marketplace" className="hover:text-[#CD3ED0]">NFT Marketplace</NavLink>
                     <div className="flex items-center">
                         <button className={"outline-none bg-auto rounded-none cursor-pointer mr-6"}>
                             <Calendar />
@@ -58,12 +58,12 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="flex flex-col text-2xl text-white">
-                        <Link to="/" className="hover:text-[#CD3ED0] py-3">Home</Link>
-                        <Link to="/projects" className="hover:text-[#CD3ED0] py-3">Projects</Link>
-                        <Link to="/" className="hover:text-[#CD3ED0] py-3">Levels</Link>
-                        <Link to="/" className="hover:text-[#CD3ED0] py-3">Bridge</Link>
-                        <Link to="/" className="hover:text-[#CD3ED0] py-3">FAQ</Link>
-                        <Link to="/" className="hover:text-[#CD3ED0] py-3">NFT Marketplace</Link>
+                        <NavLink to="/" className="hover:text-[#CD3ED0] py-3">Home</NavLink>
+                        <NavLink to="/projects" className="hover:text-[#CD3ED0] py-3">Projects</NavLink>
+                        <NavLink to="/levels" className="hover:text-[#CD3ED0] py-3">Levels</NavLink>
+                        <NavLink to="/bridge" className="hover:text-[#CD3ED0] py-3">Bridge</NavLink>
+                        <NavLink to="/faq" className="hover:text-[#CD3ED0] py-3">FAQ</NavLink>
+                        <NavLink to="/marketplace" className="hover:text-[#CD3ED0] py-3">NFT Marketplace</NavLink>
                     </div>
                     <div className="w-full text-xl text-white font-semibold">
                         <button className={"outline-none block my-4 mx-auto min-w-[50%] cursor-pointer bg-gradient-to-r from-[#CD3ED0] to-[#6B1495] rounded-[4px] px-4 py-2"}>
