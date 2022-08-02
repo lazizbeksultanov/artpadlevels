@@ -267,7 +267,7 @@
 
 @media (max-width: 340px) {
     .progress-animation>.shape {
-        width: 44%;
+        width: 44% !important;
     }
 
     @keyframes progress {
@@ -313,16 +313,6 @@
             width: 58%;
             background: #20ece0;
         }
-    }
-}
-
-@media (max-width: 500px) {
-    .roadmap__lists>ul>li {
-        width: 100% !important;
-    }
-
-    .roadmap__lists .btn>div {
-        top: -20px;
     }
 }
 
@@ -437,4 +427,33 @@
     .roadmap__lists>ul>li:nth-child(1) {
         padding-top: 1.5rem;
     }
+}
+
+@media (max-width: 500px) {
+    .roadmap__lists>ul>li {
+        width: 100% !important;
+    }
+
+    .roadmap__lists .btn>div {
+        top: -20px;
+    }
+
+    .roadmap__link {
+        font-size: 14px;
+    }
+}
+
+.checked {
+    color: #20ece0;
+}
+
+.roadmap__link {
+    line-height: 150% !important;
+}
+
+p {
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
 }
