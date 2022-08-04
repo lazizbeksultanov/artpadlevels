@@ -331,97 +331,106 @@
 }
 
 @media (max-width: 1050px) {
-    .roadmap__lists>ul {
-        flex-flow: column nowrap;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .roadmap__lists>ul>li:nth-child(3)>.text,
-    .roadmap__lists>ul>li:nth-child(1)>.text {
-        order: 2;
-        justify-content: flex-start !important;
-    }
-
-    .roadmap__lists>ul>li {
-        padding: 0 !important;
-        flex-flow: row nowrap;
-        justify-content: flex-start !important;
-        align-items: flex-start;
-        width: 450px !important;
-        position: relative;
-    }
-
-    .roadmap__lists .text ul {
-        padding-left: 0;
-        height: 360px;
-        justify-content: center !important;
-    }
-
-    .roadmap__lists>ul>li:nth-child(1) .text ul {
-        height: 260px !important;
-    }
-
-    .roadmap__lists>ul>li:nth-child(1) .btn>div {
-        width: 260px !important;
-        left: 30px;
-    }
-
-    .roadmap__lists>ul>li:nth-child(2) .btn>div {
-        width: 400px !important;
-    }
-
-    .roadmap__lists>ul>li:nth-child(3) .text ul {
-        height: 200px !important;
-    }
-
-    .roadmap__lists>ul>li:nth-child(3) .btn>div {
-        width: 180px !important;
-    }
-
-    .roadmap__lists>ul>li:nth-child(4) .text ul {
-        height: 180px !important;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .roadmap__lists>ul>li:nth-child(4) .btn>div {
-        width: 180px !important;
-        left: 30px;
-    }
-
-    .roadmap__lists .text {
-        margin: 0;
-        padding: 0;
-        flex-basis: 80%;
-    }
-
-    .text ul {
-        max-width: auto !important;
-        min-width: auto !important;
-        width: 100%;
-    }
-
-    .roadmap__lists .btn {
-        transform: rotateZ(90deg);
-        margin: 0 !important;
-        padding: 0;
-        flex-basis: 20%;
-        position: inherit;
-    }
-
-    .roadmap__lists .btn>div {
-        max-width: auto;
-        width: 100%;
-        position: absolute;
-        left: 40px;
-        top: 0;
-    }
-
-    .roadmap__lists .btn {
-        padding: 0;
+    .roadmap__lists>ul{
+        overflow-x: scroll;
+        height: 100%;
+        overflow-y: hidden;
+        padding-bottom: 48px;
     }
 }
+
+/*@media (max-width: 1050px) {*/
+/*    .roadmap__lists>ul {*/
+/*        flex-flow: column nowrap;*/
+/*        align-items: center;*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li:nth-child(3)>.text,*/
+/*    .roadmap__lists>ul>li:nth-child(1)>.text {*/
+/*        order: 2;*/
+/*        justify-content: flex-start !important;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li {*/
+/*        padding: 0 !important;*/
+/*        flex-flow: row nowrap;*/
+/*        justify-content: flex-start !important;*/
+/*        align-items: flex-start;*/
+/*        width: 450px !important;*/
+/*        position: relative;*/
+/*    }*/
+
+/*    .roadmap__lists .text ul {*/
+/*        padding-left: 0;*/
+/*        height: 360px;*/
+/*        justify-content: center !important;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li:nth-child(1) .text ul {*/
+/*        height: 260px !important;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li:nth-child(1) .btn>div {*/
+/*        width: 260px !important;*/
+/*        left: 30px;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li:nth-child(2) .btn>div {*/
+/*        width: 400px !important;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li:nth-child(3) .text ul {*/
+/*        height: 200px !important;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li:nth-child(3) .btn>div {*/
+/*        width: 180px !important;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li:nth-child(4) .text ul {*/
+/*        height: 180px !important;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .roadmap__lists>ul>li:nth-child(4) .btn>div {*/
+/*        width: 180px !important;*/
+/*        left: 30px;*/
+/*    }*/
+
+/*    .roadmap__lists .text {*/
+/*        margin: 0;*/
+/*        padding: 0;*/
+/*        flex-basis: 80%;*/
+/*    }*/
+
+/*    .text ul {*/
+/*        max-width: auto !important;*/
+/*        min-width: auto !important;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .roadmap__lists .btn {*/
+/*        transform: rotateZ(90deg);*/
+/*        margin: 0 !important;*/
+/*        padding: 0;*/
+/*        flex-basis: 20%;*/
+/*        position: inherit;*/
+/*    }*/
+
+/*    .roadmap__lists .btn>div {*/
+/*        max-width: auto;*/
+/*        width: 100%;*/
+/*        position: absolute;*/
+/*        left: 40px;*/
+/*        top: 0;*/
+/*    }*/
+
+/*    .roadmap__lists .btn {*/
+/*        padding: 0;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 1500px) {
     .roadmap__lists>ul>li:nth-child(1) {
@@ -430,17 +439,17 @@
 }
 
 @media (max-width: 500px) {
-    .roadmap__lists>ul>li {
-        width: 100% !important;
-    }
+    /*.roadmap__lists>ul>li {*/
+    /*    width: 100% !important;*/
+    /*}*/
 
-    .roadmap__lists .btn>div {
-        top: -20px;
-    }
+    /*.roadmap__lists .btn>div {*/
+    /*    top: -20px;*/
+    /*}*/
 
-    .roadmap__link {
-        font-size: 14px;
-    }
+    /*.roadmap__link {*/
+    /*    font-size: 14px;*/
+    /*}*/
 }
 
 .checked {

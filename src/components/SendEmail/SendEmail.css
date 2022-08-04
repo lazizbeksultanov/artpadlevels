@@ -2,8 +2,14 @@
     padding: clamp(5rem, 32vw, 20rem) 0px clamp(5rem, 20vw, 12.5rem) 0px;
 }
 
+.notif__container{
+    display: flex;
+    justify-content: center;
+}
+
 .notif__body {
     display: flex;
+    width: 90%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -27,12 +33,12 @@
     font-size: 18px !important;
     font-weight: 500;
     border-radius: 4px;
-    padding: 21.5px 55.5px !important;
+    padding: 15.5px 49.5px !important;
 }
 
 .notif__input {
     background: transparent;
-    padding: 22px 24px;
+    padding: 18px 20px;
     border-radius: 4px;
     width: clamp(20rem, 23vw, 23.1rem);
     border: 1px solid #fff;

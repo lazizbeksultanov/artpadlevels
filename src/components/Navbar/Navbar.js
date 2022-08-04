@@ -19,7 +19,7 @@ const Navbar = () => {
                     <NavLink to="/levels" className="hover:text-[#CD3ED0]">Levels</NavLink>
                     <NavLink to="/bridge" className="hover:text-[#CD3ED0]">Bridge</NavLink>
                     <NavLink to="/faq" className="hover:text-[#CD3ED0]">FAQ</NavLink>
-                    <NavLink to="/marketplace" className="hover:text-[#CD3ED0]">NFT Marketplace</NavLink>
+                    <NavLink to="/market" className="hover:text-[#CD3ED0]">NFT Marketplace</NavLink>
                     <div className="flex items-center">
                         <button className={"outline-none bg-auto rounded-none cursor-pointer mr-6"}>
                             <Calendar />
