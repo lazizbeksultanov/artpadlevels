@@ -22,7 +22,7 @@ const ProjectsCard = () => {
                             <img src={SeaorImg} alt=""/>
                         </div>
                     </div>
-                    <img src={ProjectsCardImg} alt="" className="w-full" />
+                    <img src={ProjectsCardImg} alt="" className="w-full rounded-t-md" />
                 </div>
                 <div className="px-3 w-full">
                     <div className="w-full flex justify-between py-3 2xl:px-8 lg:px-4 md:px-2 px-2">

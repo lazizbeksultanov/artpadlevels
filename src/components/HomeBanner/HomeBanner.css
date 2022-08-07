@@ -172,6 +172,7 @@
 
 .home__heading {
     font-weight: 500;
+    font-family: 'Rubik';
     font-size: clamp(1.5rem, 3.2vw, 3.75rem);
 }
 

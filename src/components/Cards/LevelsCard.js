@@ -17,7 +17,7 @@ const LevelsCard = (props) => {
           </div>
         </div>
         <div className="flex w-full justify-center">
-          <button className="outline-none hover:bg-red-800 py-2 px-12 text-white border border-[#CD3ED0] hover:border-white my-8">{props.buttonTitle}</button>
+          <button className="outline-none hover:bg-[#CD3ED0] py-2 px-12 text-white border border-[#CD3ED0] hover:border-white my-8">{props.buttonTitle}</button>
         </div>
       </div>
   )

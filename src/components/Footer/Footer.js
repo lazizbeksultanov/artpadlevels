@@ -31,10 +31,9 @@ const Footer = () => {
               <div className="text-white text-base">
                 <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">Home</Link>
                 <Link to="/projects" className="hover:text-[#CD3ED0] block py-0.5">Projects</Link>
-                <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">Levels</Link>
-                <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">FAQ</Link>
-                <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">Support</Link>
-                <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">NFT Marketplace</Link>
+                <Link to="/levels" className="hover:text-[#CD3ED0] block py-0.5">Levels</Link>
+                <Link to="/faq" className="hover:text-[#CD3ED0] block py-0.5">FAQ</Link>
+                <Link to="/market" className="hover:text-[#CD3ED0] block py-0.5">NFT Marketplace</Link>
               </div>
             </div>
             <div className="md:block hidden">
@@ -50,11 +49,10 @@ const Footer = () => {
               <div className="">
                 <div className="text-white text-base">
                   <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">Home</Link>
-                  <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">Projects</Link>
-                  <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">Levels</Link>
-                  <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">FAQ</Link>
-                  <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">Support</Link>
-                  <Link to="/" className="hover:text-[#CD3ED0] block py-0.5">NFT Marketplace</Link>
+                  <Link to="/projects" className="hover:text-[#CD3ED0] block py-0.5">Projects</Link>
+                  <Link to="/levels" className="hover:text-[#CD3ED0] block py-0.5">Levels</Link>
+                  <Link to="/faq" className="hover:text-[#CD3ED0] block py-0.5">FAQ</Link>
+                  <Link to="/market" className="hover:text-[#CD3ED0] block py-0.5">NFT Marketplace</Link>
                 </div>
               </div>
               <div className="">

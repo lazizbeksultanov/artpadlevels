@@ -4,7 +4,7 @@ import {ArrowL, ArrowR} from "../../resources/svgImages/svgImages";
 const Calculator = () => {
   const innerWith = window.innerWidth
   return(
-      <div className="w-full border border-[#CD3ED0] rounded-[80px] calcres:px-16 px-6 py-12 my-24 bg-[#0E0E0E]">
+      <div className="w-full border border-[#CD3ED0] border-[3px] rounded-[80px] calcres:px-16 px-6 py-12 my-24 bg-[#0E0E0E]">
         <div className="w-full calcres:flex">
             <div className="calcres:w-1/3 w-full calcres:m-0 my-4">
                 <div className="text-center">

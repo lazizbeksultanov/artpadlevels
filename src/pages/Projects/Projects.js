@@ -40,7 +40,7 @@ const Projects = () => {
                 </div>
                 {/*Tabbar end*/}
                 <p className={`text-white md:text-4xl text-3xl font-bold my-10`}>Upcoming IDOs</p>
-                <div className="">
+                <div>
                     <ProjectsCard />
                     <ProjectsCard />
                     <ProjectsCard />

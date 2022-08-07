@@ -17,7 +17,7 @@ const Navbar = () => {
                     <NavLink to="/" className="hover:text-[#CD3ED0]">Home</NavLink>
                     <NavLink to="/projects" className="hover:text-[#CD3ED0]">Projects</NavLink>
                     <NavLink to="/levels" className="hover:text-[#CD3ED0]">Levels</NavLink>
-                    <NavLink to="/bridge" className="hover:text-[#CD3ED0]">Bridge</NavLink>
+                    <NavLink to="/swap" className="hover:text-[#CD3ED0]">Swap</NavLink>
                     <NavLink to="/faq" className="hover:text-[#CD3ED0]">FAQ</NavLink>
                     <NavLink to="/market" className="hover:text-[#CD3ED0]">NFT Marketplace</NavLink>
                     <div className="flex items-center">
@@ -61,7 +61,7 @@ const Navbar = () => {
                         <NavLink to="/" className="hover:text-[#CD3ED0] py-3">Home</NavLink>
                         <NavLink to="/projects" className="hover:text-[#CD3ED0] py-3">Projects</NavLink>
                         <NavLink to="/levels" className="hover:text-[#CD3ED0] py-3">Levels</NavLink>
-                        <NavLink to="/bridge" className="hover:text-[#CD3ED0] py-3">Bridge</NavLink>
+                        <NavLink to="/swap" className="hover:text-[#CD3ED0] py-3">Swap</NavLink>
                         <NavLink to="/faq" className="hover:text-[#CD3ED0] py-3">FAQ</NavLink>
                         <NavLink to="/marketplace" className="hover:text-[#CD3ED0] py-3">NFT Marketplace</NavLink>
                     </div>

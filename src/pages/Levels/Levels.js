@@ -14,7 +14,7 @@ const Levels = () => {
                         <LevelsCard title="Tier 1" description="Staking Requirements" price="2500 ARTR" mediumTitle="Pool Weight" mediumPrice="1x" bottomTitle="Allocation Type" bottomDesc="Lottery (25%)" buttonTitle="Stake" />
                         <LevelsCard title="Tier 1" description="Staking Requirements" price="2500 ARTR" mediumTitle="Pool Weight" mediumPrice="1x" bottomTitle="Allocation Type" bottomDesc="Lottery (25%)" buttonTitle="Stake" />
                     </div>
-                    <Title color="white" title="Lottery Levels" artpadC={true} className={"tracking-widest"} />
+                    <Title color="white" title="Guaranteed Levels" artpadC={true} className={"tracking-widest"} />
                     <div className="flex w-full my-24 flex-col sm:flex-row">
                         <LevelsCard title="Tier 1" description="Staking Requirements" price="2500 ARTR" mediumTitle="Pool Weight" mediumPrice="1x" bottomTitle="Allocation Type" bottomDesc="Lottery (25%)" buttonTitle="Stake" />
                         <LevelsCard title="Tier 1" description="Staking Requirements" price="2500 ARTR" mediumTitle="Pool Weight" mediumPrice="1x" bottomTitle="Allocation Type" bottomDesc="Lottery (25%)" buttonTitle="Stake" />
@@ -25,7 +25,7 @@ const Levels = () => {
                         <LevelsCard title="Tier 1" description="Staking Requirements" price="2500 ARTR" mediumTitle="Pool Weight" mediumPrice="1x" bottomTitle="Allocation Type" bottomDesc="Lottery (25%)" buttonTitle="Stake" />
                         <LevelsCard title="Tier 1" description="Staking Requirements" price="2500 ARTR" mediumTitle="Pool Weight" mediumPrice="1x" bottomTitle="Allocation Type" bottomDesc="Lottery (25%)" buttonTitle="Stake" />
                     </div>
-                    <Title color="white" title="Lottery Levels" artpadC={true} className={"tracking-widest"} />
+                    <Title color="white" title="Bonus Levels" artpadC={true} className={"tracking-widest"} />
                     <div className="flex w-full mt-36 mb-28 justify-center flex-col sm:flex-row">
                         <LevelsCard title="Tier 1" description="Staking Requirements" price="2500 ARTR" mediumTitle="Pool Weight" mediumPrice="1x" bottomTitle="Allocation Type" bottomDesc="Lottery (25%)" buttonTitle="Stake" />
                     </div>
