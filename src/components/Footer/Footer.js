@@ -33,6 +33,7 @@ const Footer = () => {
                 <Link to="/projects" className="hover:text-[#CD3ED0] block py-0.5">Projects</Link>
                 <Link to="/levels" className="hover:text-[#CD3ED0] block py-0.5">Levels</Link>
                 <Link to="/faq" className="hover:text-[#CD3ED0] block py-0.5">FAQ</Link>
+                <Link to="/swap" className="hover:text-[#CD3ED0] block py-0.5">Swap</Link>
                 <Link to="/market" className="hover:text-[#CD3ED0] block py-0.5">NFT Marketplace</Link>
               </div>
             </div>
@@ -52,6 +53,7 @@ const Footer = () => {
                   <Link to="/projects" className="hover:text-[#CD3ED0] block py-0.5">Projects</Link>
                   <Link to="/levels" className="hover:text-[#CD3ED0] block py-0.5">Levels</Link>
                   <Link to="/faq" className="hover:text-[#CD3ED0] block py-0.5">FAQ</Link>
+                  <Link to="/swap" className="hover:text-[#CD3ED0] block py-0.5">Swap</Link>
                   <Link to="/market" className="hover:text-[#CD3ED0] block py-0.5">NFT Marketplace</Link>
                 </div>
               </div>
