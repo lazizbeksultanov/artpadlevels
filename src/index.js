@@ -8,6 +8,7 @@ import Projects from "./pages/Projects/Projects";
 import Home from './pages/Home/Home';
 import Faq from "./pages/FAQ/faq";
 import Marketplace from "./pages/NFTMarketplace/Marketplace";
+import Swap from "./pages/Swap/Swap";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Route path="/projects" element={<Projects />} exact />
       <Route path="/Faq" element={<Faq />} exact />
       <Route path="/market" element={<Marketplace />} exact />
+      <Route path="/swap" element={<Swap />} exact />
     </Routes>
   </BrowserRouter>
 );
