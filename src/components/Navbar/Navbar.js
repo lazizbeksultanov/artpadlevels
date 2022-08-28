@@ -52,6 +52,7 @@ const Navbar = () => {
                         <button className={"outline-none cursor-pointer bg-gradient-to-r from-[#CD3ED0] to-[#6B1495] rounded-[4px] px-4 py-2 mr-4"}>
                             Buy ARTR
                         </button>
+                        {/*Не удалите эту*/}
                         {/*<div className="relative group">*/}
                         {/*    <button className={"outline-none cursor-pointer bg-gradient-to-r from-[#CD3ED0] to-[#6B1495] rounded-[4px] px-4 py-2"}>*/}
                         {/*        Connect Wallet*/}
@@ -82,7 +83,7 @@ const Navbar = () => {
                                     <Account />
                                 </button>
                             </div>
-                            <div className={`absolute w-full border-2 border-[#CD3ED0] rounded-2xl py-2 px-4 z-10 ${activeUserMenu ? "block" : "hidden"}`}>
+                            <div className={`absolute w-full border-2 border-[#CD3ED0] rounded-2xl bg-black py-2 px-4 z-10 ${activeUserMenu ? "block" : "hidden"}`}>
                                 <div className="w-full flex justify-end">
                                     <button className="ml-auto text-[#CD3ED0]" onClick={() => setActiveUserMenu(false)}><CencelIcon /></button>
                                 </div>
